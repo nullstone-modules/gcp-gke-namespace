@@ -5,6 +5,7 @@ data "ns_connection" "cluster" {
 
 locals {
   cluster_id             = data.ns_connection.cluster.outputs.cluster_id
+  cluster_name           = data.ns_connection.cluster.outputs.cluster_name
   cluster_endpoint       = data.ns_connection.cluster.outputs.cluster_endpoint
   cluster_ca_certificate = data.ns_connection.cluster.outputs.cluster_ca_certificate
 }
