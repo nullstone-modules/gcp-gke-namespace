@@ -11,4 +11,6 @@ resource "helm_release" "gsm-external-secrets" {
   repository = "https://charts.external-secrets.io"
   chart      = "external-secrets"
   namespace  = local.k8s_namespace
+
+  depends_on = [kubernetes_namespace_v1.this]
 }
