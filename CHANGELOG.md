@@ -1,3 +1,6 @@
+# 0.1.2 (Nov 27, 2024)
+* Upgrade TF providers.
+
 # 0.1.1 (May 05, 2023)
 * Ensure external secrets depends on the namespace.
 
