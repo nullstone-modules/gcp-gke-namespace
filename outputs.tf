@@ -16,7 +16,6 @@ output "cluster_endpoint" {
 output "cluster_ca_certificate" {
   value       = local.cluster_ca_certificate
   description = "string ||| base64-encoded public certificate used by clients to authenticate to the cluster endpoint."
-  sensitive   = true
 }
 
 output "kubernetes_namespace" {
