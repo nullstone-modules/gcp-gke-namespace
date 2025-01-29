@@ -1,3 +1,6 @@
+# 0.1.4 (Jan 29, 2025)
+* Move `external-secrets.io` secret store to cluster module.
+
 # 0.1.3 (Dec 11, 2024)
 * Cluster CA certificate is no longer marked as a sensitive output because it's used to verify server identity.
 
