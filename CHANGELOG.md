@@ -1,3 +1,6 @@
+# 0.2.0 (Dec 11, 2025)
+* Migrated from 'terraform' to 'tofu'.
+
 # 0.1.4 (Jan 29, 2025)
 * Move `external-secrets.io` secret store to cluster module.
 
