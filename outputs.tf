@@ -1,3 +1,13 @@
+output "project_id" {
+  value       = local.project_id
+  description = "string ||| The GCP Project ID where the GKE cluster is hosted."
+}
+
+output "region" {
+  value       = local.region
+  description = "string ||| The region where the GKE cluster is hosted."
+}
+
 output "cluster_id" {
   value       = local.cluster_id
   description = "string ||| Identifier for GKE cluster (format: projects/{{project}}/locations/{{zone}}/clusters/{{name}})"

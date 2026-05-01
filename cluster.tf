@@ -4,6 +4,8 @@ data "ns_connection" "cluster" {
 }
 
 locals {
+  region                 = data.ns_connection.cluster.outputs.region
+  project_id             = data.ns_connection.cluster.outputs.project_id
   cluster_id             = data.ns_connection.cluster.outputs.cluster_id
   cluster_name           = data.ns_connection.cluster.outputs.cluster_name
   cluster_endpoint       = data.ns_connection.cluster.outputs.cluster_endpoint

@@ -1,3 +1,6 @@
+# 0.2.1 (May 01, 2026)
+* Added `project_id` and `region` to outputs.
+
 # 0.2.0 (Dec 11, 2025)
 * Migrated from 'terraform' to 'tofu'.
 
