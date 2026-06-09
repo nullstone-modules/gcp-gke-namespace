@@ -1,3 +1,7 @@
+# 0.3.0 (June 09, 2026)
+* Added a `name` variable to override the namespace name (defaults to the environment name).
+* Added support for interpolation of `{{ random() }}`, `{{ NULLSTONE_STACK }}`, `{{ NULLSTONE_BLOCK }}`, and `{{ NULLSTONE_ENV }}` in the namespace name.
+
 # 0.2.1 (May 01, 2026)
 * Added `project_id` and `region` to outputs.
 
